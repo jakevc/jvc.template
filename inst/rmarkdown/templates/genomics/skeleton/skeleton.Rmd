@@ -1,19 +1,20 @@
 ---
-title: "Call variants of the surface fish genome wiht GATK4"
+title: "Some awesome title"
 author: "Jake VanCampen"
 date: "`r Sys.time()`"
 
 ## Genomics metadata
 primary_analyst: "Jake VanCampen"
-pi: "nicolas_rohner"
-project_id: "nro4"
+pi: "name of primary investigator"
+project_id: "somehting like jvc1,jvc2"
 project_type: "NGS"
-sponsor: "nicolas_rohner"
+sponsor: "could be someone working with the pi"
 lims_order_ids:
-  - MOLNG-2003, MOLNG-1690 
-extends: 
-  - nro1, nro2, nro3
+  - MOLNG-2003, MOLNG-1690
 
+# might extend previous project_id 
+extends:
+  - nro1, nro2, nro3
 
 output:
   html_document:
@@ -23,7 +24,7 @@ output:
 
 ## About
 
-This document is a jumping space for this analysis, and all following anlayis related to this project. Interesting information about this project is encoded in the YAML header of the HEADER.Rmd file. This seems like a decent way to implement the conventions described by Chris Seidel in his [confluence discussion](https://confluence.stowers.org/display/GENOME/YAML+encoded+project+parameters) about the usefulness YAML metadata. The metadata is not used directly yet in this document, but could be exploited by scripts in parent directories. 
+This document is a jumping space for this analysis, and all following anlayis related to this project. Interesting information about this project is encoded in the YAML header of a HEADER.Rmd file. This seems like a decent way to implement the conventions described by Chris Seidel in his [confluence discussion](https://confluence.stowers.org/display/GENOME/YAML+encoded+project+parameters) about the usefulness YAML metadata. The metadata is not used directly yet in this document, but could be exploited by scripts in parent directories. 
 
 
 ## Project
@@ -42,7 +43,7 @@ Question2:
 
 ## Data
 
-The data for this project can be found [Here](bioinfo/n/data1/genomes/AstMex102)
+The data for this project can be found on the servers [Here](bioinfo/n/data1/genomes/AstMex102)
 
 ## Results
 
